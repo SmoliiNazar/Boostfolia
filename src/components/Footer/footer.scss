@@ -1,0 +1,28 @@
+.footer {
+    margin-top: 103px;
+    height: 336px;
+    background-color: #171f23;
+    &__wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        &-img {
+            margin-top: 69px;
+        }
+        &-title {
+            margin: 9px 0 0;
+            font-size: 24px;
+            letter-spacing: 2.4px;
+            color: #fff;
+        }
+        &-descr {
+            margin-top: 14px;
+            font-size: 14px;
+            letter-spacing: 1.4px;
+            color: #fff;
+        }
+        &-socials {
+        }
+    }
+}

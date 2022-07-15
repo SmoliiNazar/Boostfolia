@@ -1,0 +1,112 @@
+@import '../style/title.scss';
+@import '../style/divider.scss';
+@import '../style/variables.scss';
+
+.works {
+    &__tabs-wrapper {
+        margin-top: 85px;
+        display: flex;
+        justify-content: center;
+        li {
+            padding-left: 30px;
+            list-style-type: none;
+            a{
+                text-decoration: none;
+                outline: none;
+                font-size: 13px;
+                letter-spacing: 1.35px;
+                color: #3d3d3d;
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+.tabs_active {
+    font-weight: bold;
+}
+
+.content_active {
+    display: block;
+}
+
+.wrappered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tab-wrapper {
+    &__content {
+        width: 100%;
+        height: 524px;
+        margin: 26px 0 0;
+        object-fit: contain;
+        background-color: black;
+        &-red {
+            width: 500px;
+            height: 200px;
+            margin: 26px 0 0;
+            background-color: red;
+        }
+        &-green {
+            width: 200px;
+            height: 200px;
+            margin: 26px 0 0;
+            background-color: green;
+        }
+        &-blue {
+            width: 300px;
+            height: 200px;
+            margin: 26px 0 0;
+            background-color: blue;
+        }
+        &-yellow {
+            width: 400px;
+            height: 200px;
+            margin: 26px 0 0;
+            background-color: yellow;
+        }
+        &-brown {
+            width: 150px;
+            height: 200px;
+            margin: 26px 0 0;
+            background-color: brown;
+        }
+        &-orange {
+            width: 100px;
+            height: 200px;
+            margin: 26px 0 0;
+            background-color: $main-color;
+        }
+    }
+}
+
+.tabs__footer {
+    width: 100%;
+    height: 140px;
+    padding-top: 107px;
+    background-color: #1a1a1a;
+}
+
+.content {
+    img {
+        width: 179px;
+        height: 43px;
+    }
+    cursor: pointer;
+}
+
+.arrows {
+    height: 27px;
+    img {
+        width: 16px;
+        height: 27px;
+    }
+    cursor: pointer;
+}
+.arrow-wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}

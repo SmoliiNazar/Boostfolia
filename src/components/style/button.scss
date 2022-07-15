@@ -1,0 +1,21 @@
+@import '../style/variables.scss';
+
+.btn {
+    width: 127px;
+    height: 35px;
+    margin: 2px 0 0;
+    object-fit: contain;
+    background-color: #b11000;
+    border: none;
+    cursor: pointer;
+
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    color: #ebebeb;
+    transition: all 0.6s;
+    &:hover {
+        background-color: $main-color;
+        box-shadow: 5px 5px rgba(0, 0, 0, 0.42);
+    }
+}

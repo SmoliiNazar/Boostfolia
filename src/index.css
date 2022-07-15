@@ -1,0 +1,10 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, 'BigNoodleTitling', sans-serif;
+  background-color: white;
+}
+.container {
+  max-width: 950px;
+  margin: 0 auto
+}

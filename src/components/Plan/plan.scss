@@ -1,0 +1,65 @@
+@import '../style/variables.scss';
+.cards-wrapper {
+    display: flex;
+    justify-content: center;
+}
+.plan {
+    margin-top: 105px;
+    width: 100%;
+    padding-top: 60px;
+    height: 706px;
+    background-color: #171f23;
+    &__cards {
+        width: 232px;
+        height: 449px;
+        margin: 56px 2px 0 0;
+        padding: 0 0 46px;
+        border-top: 5px;
+        background-color: #1f282c;
+        &-content-bg {
+            width: 232px;
+            height: 128px;
+            background-color: #0e1316;
+            &-title {
+                padding-top: 42px;
+                font-size: 14px;
+                font-weight: bold;
+                letter-spacing: 1.4px;
+                text-align: center;
+                color: #fff;
+                span {
+                    padding: 9px 0 0;
+                    font-size: 35.5px;
+                    font-weight: 300;
+                }
+            }
+        }
+        &-wrapper {
+            margin-top: 48px;
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+        }
+        &-point {
+            padding-top: 19px;
+            font-size: 14px;
+            font-weight: 100;
+            letter-spacing: 1.4px;
+            color: #fff;
+            span {
+                font-weight: bold;
+            }
+        }
+        &-purchase {
+            margin: 87px auto;
+            background-color: $main-color;
+        }
+    }
+}
+
+.active {
+    border: 1px solid $main-color;
+    span {
+        color: $main-color;
+    }
+}

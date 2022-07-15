@@ -1,0 +1,50 @@
+@import '../style/title.scss';
+@import '../style/divider.scss';
+
+.about {
+    &__title {
+        padding-top: 95px;
+        text-align: center;
+    }
+    &__descr {
+        margin: 26px 0 0;
+        font-weight: 100;
+        text-align: center;
+        color: #696969;
+    }
+}
+.blocks {
+    display: flex;
+    justify-content: center;
+    margin-top: 56px;
+    text-align: center;
+    &-wrapper {
+        width: 320px;
+        height: 196px;
+        margin: 0 21px 0 0;
+        padding: 31px 29px 23px 47px;
+        object-fit: contain;
+        background-color: #ebebeb;
+        img {
+            margin-top: 10px;
+        }
+        &__title {
+            margin: 24px 49px 15px 40px;
+            font-weight: bold;
+            letter-spacing: 0.44px;
+            color: #707070;
+        }
+        &__descr {
+            margin: 15px 0 0;
+            font-size: 14px;
+            font-weight: 100;
+            color: #707070;
+        }
+    }
+}
+.portfolio {
+    padding-top: 10px;
+}
+.infinite {
+    padding-top: 25px;
+}

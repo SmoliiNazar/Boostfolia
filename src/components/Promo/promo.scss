@@ -1,0 +1,32 @@
+@import '../style/title.scss';
+
+.promo {
+    height: 708px;
+    background-color: #353535;
+    &__title {
+        padding-top: 150px;
+        text-align: center;
+        color: #d6d5d5;
+    }
+    &__description {
+        margin-top: 10px;
+        font-size: 36px;
+        letter-spacing: 3.6px;
+        text-align: center;
+        color: #d6d5d5;
+    }
+}
+.mouse {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 300px;
+    img {
+        width: 30px;
+        height: 60px;
+    }
+    &__descr {
+        font-weight: bold;
+        color: #fff;
+    }
+}
